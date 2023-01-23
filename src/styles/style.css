@@ -18,9 +18,12 @@ body {
 .footer {
   background-color: #1E2022;
 }
-
+.btn{
+  transition: all .5s;
+}
 .btn:hover {
   cursor: pointer;
+  background-color: green;
 }
 
 .nav-link {
