@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.nav {
+  background-color: #52616B;
+}
+
+body {
+  background-color: #F0F5F9;
+}
+
+.footer {
+  background-color: #1E2022;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.list-article-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card:hover {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
